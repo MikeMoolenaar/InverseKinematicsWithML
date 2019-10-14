@@ -17,5 +17,7 @@ When you open this project in your IDE, make sure you set the python executable 
 - `Window` > `Toggle System Console`
 - Click on `Run script` in the text editor, a menu will be shown in the System console. Blender will freeze while showing the menu, press 0 to quit.  
  If you didn't open the System console before running the script, Blender will freeze and you must force-stop it.
+- You can define `option` in the script inside Blender, this will skip the input menu in the Window console and execute that option.
+
 
 To run `app.py` outside Blender, comment out `import bpy` in the `blenderhelper.py` file.
