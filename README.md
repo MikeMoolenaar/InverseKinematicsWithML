@@ -7,8 +7,7 @@
 ```
 ./python.exe -m ensurepip
 ./python.exe -m pip install --upgrade pip setuptools wheel
-./python.exe -m pip install --user pandas tensorflow scikit-learn
-MAYBE ./python.exe -m pip install --user -r requirements.txt
+./python.exe -m pip install --user -r requirements.txt
 ```
 When you open this project in your IDE, make sure you set the python executable in the blender bin folder as your interpeter.
 ## Executing
